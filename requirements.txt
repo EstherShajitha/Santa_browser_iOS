@@ -1,0 +1,29 @@
+
+# Core Testing Framework
+pytest==7.4.3
+pytest-xdist==3.5.0              # Parallel test execution
+pytest-timeout==2.2.0             # Test timeout management
+pytest-html==4.2.0                # HTML report generation
+pytest-metadata==3.0.0            # Test metadata in reports
+
+# Mobile Automation
+Appium-Python-Client==3.1.0       # Appium client for iOS automation
+selenium==4.15.2                  # WebDriver protocol implementation
+
+# Request/HTTP
+requests==2.31.0                  # HTTP library for API testing
+urllib3==2.1.0                    # URL handling and HTTP connection pooling
+
+# Data Processing
+xlsxwriter==3.1.9                 # Excel file generation for analytics export
+
+# Network Monitoring & Analytics
+mitmproxy==10.2.4                 # Man-in-the-middle proxy for traffic capture
+
+# Logging & Debugging
+python-dotenv==1.0.0              # Environment variable management
+colorama==0.4.6                   # Colored terminal output
+
+# Development & Linting (optional, for CI/CD)
+flake8==6.1.0                     # Python linter
+pylint==3.0.3                     # Code analysis
